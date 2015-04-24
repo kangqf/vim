@@ -8,6 +8,8 @@ git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouComplet
 cd ~/.vim/bundle/YouCompleteMe
   ./install.sh
    git submodule update --init --recursive
+   
+sudo apt-get install ctags
 
 vim :PluginInstall
 
