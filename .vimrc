@@ -64,7 +64,7 @@ Bundle 'majutsushi/tagbar'
 " 用于C/C++代码注释
 Bundle 'scrooloose/nerdcommenter'
 " 模板补全
-Bundle 'SirVer/ultisnips'
+" Bundle 'SirVer/ultisnips'
 " F2 显示文件结构
 Bundle 'scrooloose/nerdtree'
 " F2 显示缓冲区的文件
