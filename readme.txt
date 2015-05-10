@@ -14,3 +14,11 @@ sudo apt-get install ctags
 vim :PluginInstall
 
 mv ./kqfsnippets ~/.vim/bundle/ultisnips/
+
+cd /usr/include/c++/4.8
+ctags -R --c++-kinds=+l+x+p --fields=+iaSl --extra=+q --language-force=c++ -f stdcpp.tags
+
+
+some tips
+
+1. make sure you have the same project defined in index config file.
